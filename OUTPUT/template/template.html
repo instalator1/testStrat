@@ -1,0 +1,35 @@
+    <!DOCTYPE HTML 
+            
+    <html>
+    <head>
+        <title>STRATEGY</title>
+    </head>
+        <link rel="stylesheet" type="text/css" href="template/typography.css"/>
+    <h3>Nazwa strategi {name} parametry:</h3>
+    <body>
+        <h3>Parametry:  {params}</h3>
+        <p >
+            <h3>Stopy zwrotu</h3> {ret}
+        </p>
+        <hr>
+        <p>
+            <h3>Inne statystyki</h3>
+            <ul class="large">
+                <li>Sharpe: {sh}</li>
+                <li>{sqn}</li>
+            </ul>
+        SQN wsk stworzony przez Van K.Tharpa <a href="https://www.backtrader.com/docu/analyzers-reference/#sqn"> Definicja </a>
+        </p>
+        <hr>
+        <p>
+            <h3>Drawdown</h3>
+            {dd}
+        </p>
+        <hr>
+        <h3>Transakcje</h3>
+        {table}
+
+    </body>
+
+    </html>
+    '''
